@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0a2d4d;
+  color: #fff;
+  font-family: 'Averta OP Bold';
+  font-size: 1.23rem;
+}
+
+@font-face {
+  font-family: 'Averta OP Bold';
+  src: url(./fonts/averta-op-bold-v1.woff2) format('woff2');
+}

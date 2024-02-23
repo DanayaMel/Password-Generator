@@ -1,0 +1,9 @@
+.box {
+  position: absolute;
+   top: 25%;
+}
+
+.grid {
+  position: relative;
+  text-align: center;
+}
