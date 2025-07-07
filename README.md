@@ -23,7 +23,45 @@ A clean, frontend-only password generator inspired by 1Password. This app lets u
 ## 📁 File Structure
 
 ```
-TODO
+Password-Generator
+¦   package.json
+¦   README.md
+¦   
++---public
+¦       index.html
+¦       
++---src
+    ¦   index.css
+    ¦   index.js
+    ¦   
+    +---components
+    ¦   +---App
+    ¦   ¦       App.css
+    ¦   ¦       App.js
+    ¦   ¦       App.test.js
+    ¦   ¦       
+    ¦   +---Heading
+    ¦   ¦       Heading.css
+    ¦   ¦       Heading.js
+    ¦   ¦       Heading.test.js
+    ¦   ¦       
+    ¦   +---Password
+    ¦   ¦       Password.css
+    ¦   ¦       Password.js
+    ¦   ¦       Password.test.js
+    ¦   ¦       
+    ¦   +---PasswordGeneratorOptions
+    ¦           PasswordGeneratorOptions.css
+    ¦           PasswordGeneratorOptions.js
+    ¦           PasswordGeneratorOptions.test.js
+    ¦           
+    +---fonts
+    ¦       averta-op-bold-v1.woff2
+    ¦       courier-prime-bits-v1.woff2
+    ¦       
+    +---utils
+            passwordHelper.js
+            passwordHelper.test.js
 ```
 
 ---
