@@ -2,16 +2,21 @@
 
 <img width="1789" alt="password_generator" src="https://github.com/DanayaMel/Password-Generator/assets/15119003/cd95081a-825a-44df-9904-83dd3c6f93f7">
 
-A simple JavaScript utility to generate secure, customizable passwords. This tool lets users define password length and choose whether to include lowercase letters, uppercase letters, numbers, and special characters.
+A clean, frontend-only password generator inspired by 1Password. This app lets users generate secure, customizable passwords directly in the browser — no backend or dependencies required.
 
 ---
 
 ## ✨ Features
 
-- Customizable password length
-- Toggle character types (lowercase, uppercase, numbers, symbols)
-- Simple API, easily pluggable into web apps
-- Ensures random and secure output
+- ✅ Fully in-browser (static HTML + JavaScript)
+- 🔢 Customizable password length
+- 🔤 Toggle character types:
+  - Lowercase
+  - Uppercase
+  - Numbers
+  - Symbols
+- 📋 Copy-to-clipboard support
+- 🎯 Focused, minimalist UI
 
 ---
 
@@ -23,48 +28,38 @@ TODO
 
 ---
 
-## 🧠 Usage
+## 🚀 Getting Started
 
-```js
-import generatePassword from './utils/passwordHelper';
-
-const options = {
-  length: 12,
-  useLowercase: true,
-  useUppercase: true,
-  useNumbers: true,
-  useSymbols: false,
-};
-
-const password = generatePassword(options);
-console.log(password); // Example: "fG7d2Jkq9Lpm"
-```
-
----
-
-## 🔧 Development
+### 🔧 Option 1: Run Locally
 
 1. Clone the repo:
+
    ```bash
    git clone https://github.com/DanayaMel/Password-Generator.git
-   ```
-
-2. Open the project folder:
-   ```bash
    cd Password-Generator
    ```
 
-3. Explore the `src/utils/passwordHelper.js` file.
+2. Run the server:
+   `npm start`
+
+---
+
+## 📸 UI Overview
+
+- Text field displays generated password
+- Buttons to toggle password options (length, character types)
+- “Generate” button instantly creates a password
+- (Optional) Copy button to copy the result to clipboard
 
 ---
 
 ## 🧾 License
 
-MIT
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🙋‍♀️ Author
+## 👩‍💻 Author
 
-**Danaya Melendez**  
+**Danaya Melendez**
 [github.com/DanayaMel](https://github.com/DanayaMel)
